@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Criar Pontos nos Rios
+qgisMinimumVersion=3.0
+description=Create START, END, CONFLUIT points in linear hydrographs.
+version=1.0
+author=Antônio Teles
+email=antoniot.leandro@gmail.com
+
+about=Tool creates start and end points and confluences of linear hydrographs, start and end points are created from the elevation (Z) of each coordinate, at each point and the name of the river is placed, in case of having rivers crossing always catch the most relevant. The shape needs to be linear and 3D, in the plugin we have the option where you select the layer, the option where you select the column where the hydrography name is located, and where the shape of points will be saved. ("Ferramenta cria pontos de início e fim e confluentes das hidrografias linear, pontos de início e fim são criados a partir da elevação(Z) de cada coordenada, em cada ponto e colocado o nome do rio, em casos de ter rios se cruzando sempre pegara o mais relevante. O shape precisa ser linear e 3D, no plugin temos a opção onde seleciona a camada, a opção onde seleciona a coluna onde se encontra o nome da hidrografia, e onde vai ser salvo o shape de pontos.")
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
